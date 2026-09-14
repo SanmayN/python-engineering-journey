@@ -6,7 +6,7 @@
 
 **Current phase:** Python Fundamentals
 
-**Current topic:** Conditionals
+**Current topic:** Loops
 
 ---
 
