@@ -19,4 +19,23 @@ for language in language_count:
         highest_count = count
         highest_language = language
 
-print(f" {highest_language} : {highest_count}")
+# print(f" {highest_language} : {highest_count}")
+
+# A method to effective call both the key and value
+
+# for language, count in language_count.items():
+#     print(language, count)
+
+# sorted Uses
+# sorted( dict variable , key = lambda item : item[1]
+# item[0]   # "English"
+# item[1]   # 91
+# Basically takes the item and fetched the element at  that position
+
+# reverse = True. Reverses the order of the items.
+
+sorted_languages = sorted(language_count.items(), key = lambda item : item[1], reverse = True)
+
+# [:10] takes the first 10 entries.
+for language,count in sorted_languages[:10]:
+    print(language, count)
