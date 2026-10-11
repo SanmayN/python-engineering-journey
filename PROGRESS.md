@@ -6,7 +6,7 @@
 
 **Current phase:** Python Fundamentals
 
-**Current topic:** Loops
+**Current topic:** Functions
 
 ---
 
