@@ -1,3 +1,11 @@
+# Call your function factorial, it takes a whole number as a parameter and it return a factorial of the number
+
+def factorial(num):
+    factorial_acc = 1
+    for n in range(num, 0, -1):
+        factorial_acc = factorial_acc * n
+    return factorial_acc
+print(factorial(6))
 # Write different functions which take lists. They should calculate_mean, calculate_median, calculate_mode, calculate_range, calculate_variance, calculate_std (standard deviation).
 
 num = [2,1,3,4,5]

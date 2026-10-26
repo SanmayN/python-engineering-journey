@@ -1,0 +1,4 @@
+# calculate_range
+
+numbers = [2, 4, 4, 4, 5, 6, 6, 7]
+
