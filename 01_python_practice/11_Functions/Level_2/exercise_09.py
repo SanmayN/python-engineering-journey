@@ -17,4 +17,6 @@ def calculate_variance(nums):
 
     sample_variance = squared_diff/ (len(nums) - 1)
     return sample_variance
-print(calculate_variance(numbers))
+
+if __name__ == "__main__":
+    print(calculate_variance(numbers))
